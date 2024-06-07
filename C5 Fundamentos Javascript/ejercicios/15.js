@@ -1,4 +1,4 @@
-function esPar(num) {
+
   // La función recibe un argumento llamado num.
   // Retorna true si el argumento "num" es par.
   // De lo contrario, retorna false.
@@ -6,6 +6,14 @@ function esPar(num) {
   // 14 ---> true
   // 15 ---> false
   // Tu código:
-}
 
-module.exports = esPar;
+  function esPar(num) {
+    // Verificamos si el residuo de la división por 2 es 0
+    if (num % 2 === 0) {
+      return true; // El número es par
+    } else {
+      return false; // El número es impar
+    }
+  }
+  
+  module.exports = esPar;

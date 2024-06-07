@@ -1,6 +1,9 @@
-// Resuelve el siguiente problema matemático.
-// Reemplaza el valor de null por el correspondiente.
+// Resuelve el problema matemático reemplazando null por el valor correspondiente
+// Calcula el resto de la división de 21 entre 5
+const nuevoModulo = 21 % 5; // El resultado de la operación de módulo es 1
 
-const nuevoModulo = 21 % 5 === null;
-
+// Exporta el valor resultante, que es 1
 module.exports = nuevoModulo;
+
+// Imprime el valor exportado
+console.log(module.exports); // Debe imprimir 1

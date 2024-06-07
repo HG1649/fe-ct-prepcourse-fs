@@ -1,0 +1,104 @@
+ejercio03 -M5
+Declaración de la variable: Se declara una variable nuevoBoolean utilizando la palabra clave let y se le asigna el valor null.
+
+Comprobación de valor null: Se utiliza una instrucción if para verificar si el valor de nuevoBoolean es null.
+
+Reemplazo del valor: Si nuevoBoolean es null, se le asigna un valor por defecto, en este caso false.
+
+Impresión del valor: Se utiliza la función console.log() para imprimir el valor final de la variable nuevoBoolean.
+
+Exportación de la variable: Se utiliza la instrucción module.exports para exportar la variable nuevoBoolean para que pueda ser utilizada en otros módulos.
+
+ejercicio 04
+
+Respuesta a este ejercio 4  arroja un final
+
+ejercicio 05:
+
+
+Explicación del código y resolución del problema
+Problema:
+
+Determinar el valor de la expresión 10 * null y compararlo con 40.
+
+Solución:
+
+En el lenguaje de programación JavaScript, el valor null representa la ausencia de un valor. Al multiplicarlo por un número entero, el resultado siempre será 0.
+
+Por lo tanto, la expresión 10 * null equivale a 10 * 0, lo que resulta en 0.
+
+ejercicio 08
+
+
+// La función recibe un argumento llamado numero. // Verifica si este es un número entero o no. // Retorna true si lo es, de lo contrario, retorna false. // Por ejemplo: // 24 ---> true // -1212 ---> true // 121.212 ---> false // Tu código:
+
+function esNumeroEntero(numero) { }
+
+module.exports = esNumeroEntero;// La función recibe un argumento llamado numero. // Verifica si este es un número entero o no. // Retorna true si lo es, de lo contrario, retorna false. // Por ejemplo: // 24 ---> true // -1212 ---> true // 121.212 ---> false // Tu código:
+
+function esNumeroEntero(numero) { }
+
+module.exports = esNumeroEntero;
+
+ejercicio 09
+
+Esta función utiliza el operador de igualdad (===) para verificar si el valor es exactamente null o undefined. Si es así, devuelve true. De lo contrario, devuelve false.
+
+Por ejemplo:
+
+esNuloOUndefined(null) devuelve true
+esNuloOUndefined(undefined) devuelve true
+esNuloOUndefined(22) devuelve false
+esNuloOUndefined("texto") devuelve false
+Alternativamente, puedes utilizar la siguiente implementación que es un poco más concisa:
+
+ejercicio 10
+
+utilizar el operador de igualdad (===) para comparar los valores de x e y. Aquí te dejo la implementación de la función sonIguales:
+
+Nota que estamos utilizando el operador de igualdad estricta (===) para comparar los valores, lo que significa que también se verifica el tipo de dato. Si deseas comparar solo los valores sin considerar el tipo de dato, puedes utilizar el operador de igualdad no estricta (==).
+
+
+ejercicio 13
+
+Declaración de la función:
+
+Se define una función llamada menosQueNoventa que recibe un parámetro de tipo number llamado num.
+La función retorna un valor de tipo booleano.
+Verificación:
+
+Se utiliza un condicional if para verificar si el valor de num es menor que 90.
+Si num es menor que 90, se retorna true.
+En caso contrario, se retorna false.
+Retorno:
+
+La función retorna el valor true o false dependiendo de la comparación con 90.
+Ejemplo de uso:
+
+JavaScript
+const resultado1 = menosQueNoventa(85); // true
+const resultado2 = menosQueNoventa(100); // false
+console.log(resultado1); // Imprime: true
+console.log(resultado2); // Imprime: false
+
+ejercicio14
+
+Declaración de la función:
+
+Se define una función llamada mayorQueCincuenta que recibe un parámetro de tipo number llamado num.
+La función retorna un valor de tipo booleano.
+Verificación:
+
+Se utiliza un condicional if para verificar si el valor de num es mayor que 50.
+Si num es mayor que 50, se retorna true.
+En caso contrario, se retorna false.
+Retorno:
+
+La función retorna el valor true o false dependiendo de la comparación con 50.
+Ejemplo de uso:
+
+JavaScript
+const resultado1 = mayorQueCincuenta(60); // true
+const resultado2 = mayorQueCincuenta(30); // false
+console.log(resultado1); // Imprime: true
+console.log(resultado2); // Imprime: false

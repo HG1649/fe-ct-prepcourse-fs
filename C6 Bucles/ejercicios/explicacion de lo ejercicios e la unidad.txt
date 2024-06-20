@@ -1,0 +1,46 @@
+explicacion de lo ejercicios e la unidad 6 -Bubles
+
+//ejerccio 01
+
+La función utiliza el operador de igualdad estricta === para verificar si los números a y b son iguales. Luego, utiliza el operador de menor que < para verificar si ambos números son negativos.
+
+La condición a < 0 && b < 0 se evalúa solo si la condición a === b es verdadera, gracias al operador lógico && (AND). Esto se conoce como "short-circuit evaluation" y evita que se evalúen condiciones innecesarias.
+
+En resumen, la función devuelve true solo si los números a y b son iguales y ambos son negativos. De lo contrario, devuelve false.
+
+
+
+ejercicios #2
+
+Función esVerdaderoYFalso:
+
+La función esVerdaderoYFalso 
+recibe dos argumentos booleanos, booleano1 y booleano2, 
+y su objetivo es determinar si ambos argumentos 
+son true y retornar true en ese caso, o false en cualquier otro. 
+La función utiliza el operador lógico && (and) para evaluar las condiciones y determinar el valor de retorno.
+
+ejercicio 3
+
+La función obtenerMayor recibe dos argumentos enteros, x e y, y su objetivo es determinar cuál de ellos es el mayor y retornarlo. 
+Si ambos valores son iguales, la función retorna cualquiera de ellos.
+
+1.Función obtenerMayor:
+
+Se define una función llamada obtenerMayor que recibe dos parámetros: x e y.
+Estos parámetros se esperan que sean números enteros.
+
+2.Comparación con if-else:
+
+Se utiliza una estructura de control if-else para comparar los valores de x e y.
+La primera condición verifica si x es mayor que y. Si se cumple, se retorna el valor de x.
+La segunda condición verifica si x es menor que y. Si se cumple, se retorna el valor de y.
+Si ninguna de las condiciones anteriores se cumple, significa que x e y son iguales. En este caso, se retorna el valor de x (o y, ya que son iguales).
+
+3.Retorno del valor:
+
+La función retorna el valor correspondiente al número mayor o cualquiera de los dos si son iguales.
+
+ejercico 04
+
+ Si la edad es mayor o igual a 18, devuelve el string "Allowed", de lo contrario devuelve "Not allowed".
